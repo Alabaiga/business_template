@@ -71,3 +71,9 @@ img.kitten-image {
     width: 400px;
     align-items: center;
 }
+.quote-container {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    background-color: #E5e7eb;
+}
