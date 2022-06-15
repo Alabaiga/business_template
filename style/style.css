@@ -111,10 +111,10 @@ img.kitten-image {
 figure {
     display: inline-block;
     margin: 0 auto;
+    padding: 10px;
 }
 figure img {
     vertical-align: top;
- 
 }
 figcaption {
     text-align: center;
