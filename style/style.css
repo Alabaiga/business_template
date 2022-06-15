@@ -75,5 +75,61 @@ img.kitten-image {
     display: flex;
     margin: 0;
     width: 100%;
-    background-color: #E5e7eb;
+    height: 300px;
+    background-color: #c9c7c7;
+    justify-content: center;
+    align-items: center;
+}
+.sub-content-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+.sub-content-image-container img {
+    width: 300px;
+    height: 225px;
+    padding: 15px;
+}
+.sub-content-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 75px;
+
+}
+.sub-content-container h2 {
+    padding: 60px;
+    text-align: center;
+}
+.sub-content-image-container p {
+    display: block;
+    margin: 0 auto;
+}
+.quote-text {
+    width: 500px;
+    height: auto;
+}
+figure {
+    border-style: solid;
+    border-width: 2px;
+}
+figure figcaption {
+    text-align: center;
+}
+.footer {
+    background-color: #1f2937;
+    width: 100%;
+    color: #E5e7eb;
+    text-align: center;
+    font-size: 12.5px;
+    padding: 15px;
+}
+.ad-container {
+    display: flex;
+}
+.action-ad {
+    background-color: #69a1fa ;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 50px auto;
+    color: #E5e7eb;
+    width: 700px;
 }
