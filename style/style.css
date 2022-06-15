@@ -81,7 +81,8 @@ img.kitten-image {
     align-items: center;
 }
 .sub-content-image-container {
-    display: flex;
+    display: block;
+    text-align: center;
     justify-content: space-between;
 }
 .sub-content-image-container img {
@@ -108,11 +109,16 @@ img.kitten-image {
     height: auto;
 }
 figure {
-    border-style: solid;
-    border-width: 2px;
+    display: inline-block;
+    margin: 0 auto;
 }
-figure figcaption {
+figure img {
+    vertical-align: top;
+ 
+}
+figcaption {
     text-align: center;
+    width: auto;
 }
 .footer {
     background-color: #1f2937;
@@ -124,12 +130,40 @@ figure figcaption {
 }
 .ad-container {
     display: flex;
+    align-items: center;
 }
 .action-ad {
+    display: flex;
     background-color: #69a1fa ;
     border-radius: 25px;
     padding: 15px;
     margin: 50px auto;
     color: #E5e7eb;
     width: 700px;
+    align-items: center;
+}
+.sign-up {
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    width: 100px;
+    background-color: #69a1fa;
+    color: #E5e7eb;
+    font-weight: bold;
+}
+.ad-sign-up {
+    text-align: center;
+    width: auto;
+}
+.action-ad h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.action-ad p {
+    margin-top: 0;
+    padding-top: 0;
+}
+.ad-sign-up {
+    width: 100px;
+    height: auto;
 }
